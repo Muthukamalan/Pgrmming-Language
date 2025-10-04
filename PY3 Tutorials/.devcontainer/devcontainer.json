@@ -1,0 +1,11 @@
+{
+        "name": "py3Pgrms",
+        "image": "ghcr.io/astral-sh/uv:debian",
+        "postCreateCommand": "uv self version",
+        "customizations":{
+                "vscode": {
+                        "extensions": [],
+                        "settings": {}
+                }
+        }
+}

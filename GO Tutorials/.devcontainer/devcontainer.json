@@ -1,0 +1,15 @@
+{
+        "name": "goPgrms",
+        "image": "golang:latest",
+        "postCreateCommand": "go version && go telemetry off",
+        "customizations":{
+                "vscode": {
+                        "extensions": ["golang.Go"],
+                        "settings": {
+                                "[go]": {
+                                        "editor.insertSpaces": false
+                                }
+                        }
+                }
+        }
+}
